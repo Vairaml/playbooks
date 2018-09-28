@@ -1,6 +1,6 @@
 ---
   - name: url
-    hosts: linux
+    hosts: localhost
     ignore_errors: yes
     tasks:
       - name: Iwork4shc URL monitoring
