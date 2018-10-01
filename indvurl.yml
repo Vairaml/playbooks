@@ -119,7 +119,7 @@
           from: s0204339@stanfordhealthcare.org
           to: "DL-HCL-MW-IIS@stanfordhealthcare.org"
           subject: Iwork4shc External URL not working
-          body: 'IGreen url is down https://96.47.48.243/APIHC/TASS1/WebPortal/Main/Login.aspx'
+          body: 'IGreen url is down https://96.47.48.243/APIHC/TASS/WebPortal/Main/Login.aspx'
 
       - name: b
         mail:
