@@ -88,7 +88,7 @@
         mail:
           host: smtp.stanfordmed.org
           port: 25
-          from: s0204339@stanfordhealthcare.org
+          from: DL-HCL-MW-IIS@stanfordhealthcare.org
           to: "DL-HCL-MW-IIS@stanfordhealthcare.org"
           subject: Iwork4shc External URL not working
           body: 'IGreen url is down https://96.47.48.243/APIHC/TASS/WebPortal/Main/Login.aspx'
@@ -97,34 +97,17 @@
         mail:
           host: smtp.stanfordmed.org
           port: 25
-          from: s0204339@stanfordhealthcare.org
+          from: DL-HCL-MW-IIS@stanfordhealthcare.org
           to: "DL-HCL-MW-IIS@stanfordhealthcare.org"
           subject: IDCH URL not working
           body: 'IDCH base url is down https://itservices.stanfordmed.org/'
 
-      - name: c
-        mail:
-          host: smtp.stanfordmed.org
-          port: 25
-          from: s0204339@stanfordhealthcare.org
-          to: "DL-HCL-MW-IIS@stanfordhealthcare.org"
-          subject: IDCH URL not working
-          body: 'IDCH admin url is down https://itservices.stanfordmed.org/api/AdminPortal/'
-
-      - name: d
-        mail:
-          host: smtp.stanfordmed.org
-          port: 25
-          from: s0204339@stanfordhealthcare.org
-          to: "DL-HCL-MW-IIS@stanfordhealthcare.org"
-          subject: Prism URL not working
-          body: 'Prism url is down https://prism.stanfordhealthcare.org/EpicCareLink_LPCH/common/epic_check.asp?mode=TICKET'
-
+   
       - name: e
         mail:
           host: smtp.stanfordmed.org
           port: 25
-          from: s0204339@stanfordhealthcare.org
+          from: DL-HCL-MW-IIS@stanfordhealthcare.org
           to: "DL-HCL-MW-IIS@stanfordhealthcare.org"
           subject: Prism Login URL not working
           body: 'Prism Login url is down https://prism.stanfordhealthcare.org/prism/login/login'
@@ -133,7 +116,7 @@
         mail:
           host: smtp.stanfordmed.org
           port: 25
-          from: s0204339@stanfordhealthcare.org
+          from: DL-HCL-MW-IIS@stanfordhealthcare.org
           to: "DL-HCL-MW-IIS@stanfordhealthcare.org"
           subject: Iwork4shc Internal URL not working
           body: 'Iwork4shc Internal URL is down https://iwork4shc.stanfordmed.org/APIHC/TASS/WebPortal/Main/Login.aspx'
@@ -142,7 +125,7 @@
         mail:
           host: smtp.stanfordmed.org
           port: 25
-          from: s0204339@stanfordhealthcare.org
+          from: DL-HCL-MW-IIS@stanfordhealthcare.org
           to: "DL-HCL-MW-IIS@stanfordhealthcare.org"
           subject: Jobs URL not working
           body: 'Jobs Internal url is down https://jobs.stanfordmed.org'
@@ -151,7 +134,7 @@
         mail:
           host: smtp.stanfordmed.org
           port: 25
-          from: s0204339@stanfordhealthcare.org
+          from: DL-HCL-MW-IIS@stanfordhealthcare.org
           to: "DL-HCL-MW-IIS@stanfordhealthcare.org"
           subject: Jobs URL not working
           body: 'Jobs External url is down https://96.47.50.157/CSS_External/CSSPage_Welcome.asp'
