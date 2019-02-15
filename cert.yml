@@ -1,0 +1,6 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: Copy and Execute the script
+      script: /home/s0204339/playbooks/sslverify.py
