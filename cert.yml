@@ -4,6 +4,3 @@
   tasks:
     - name: Copy and Execute the script
       script: /opt/sslverify.py
-      
-      
-   
